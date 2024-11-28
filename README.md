@@ -50,12 +50,12 @@ A robust backend system built with Flask, providing secure user authentication, 
 ### Admin Dashboard  
 | Endpoint             | Method | Description                       | Protected |  
 |----------------------|--------|-----------------------------------|-----------|  
-| `/admin/dashboard`   | GET    | View all users and files          | Yes       |  
+| `/admin/admin-dashboard`   | GET    | View all users and files          | Yes       |  
 
 ### User Dashboard  
 | Endpoint             | Method | Description                       | Protected |  
 |----------------------|--------|-----------------------------------|-----------|  
-| `/user/dashboard`    | GET    | View user-specific files and info | Yes       |  
+| `/user/user-dashboard`    | GET    | View user-specific files and info | Yes       |  
 
 ---
 
@@ -79,3 +79,8 @@ secure-file-management/
 │
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
+
+
+## Prerequisites  
+- Python 3.8+  
+- MongoDB installed and running locally or on a server.  
